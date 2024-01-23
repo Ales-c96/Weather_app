@@ -12,7 +12,7 @@ export default function useClimate() {
         error.value = '' //Reload error if city is changed
 
         const key = import.meta.env.VITE_APY_KEY
-        const url = `http://api.openweathermap.org/geo/1.0/direct?q=${city},${country}&limit=1&appid=${key}`
+        const url = `https://api.openweathermap.org/geo/1.0/direct?q=${city},${country}&limit=1&appid=${key}`
 
         try {
 
