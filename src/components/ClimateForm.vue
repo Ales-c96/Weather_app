@@ -41,8 +41,8 @@ const checkWeather = () => {
             <div class="field">
                 <label for="country">País</label>
                 <select v-model="searchParameters.country" id="country">
-                    <option value="">-- Seleccione un país --</option>
-                    <option v-for="country in countries" :value="country.code">{{ country.name }}</option>
+                    <option class="country-option" value="">-- Seleccione un país --</option>
+                    <option class="country-option" v-for="country in countries" :value="country.code">{{ country.name }}</option>
                 </select>
             </div>
             <input type="submit" value="Consultar clima">
