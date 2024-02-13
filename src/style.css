@@ -92,6 +92,12 @@ body {
   margin-top: 2rem;
 }
 
+.result-temp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .result .actual {
   font-size: 6rem;
   margin: 0;
